@@ -55,7 +55,7 @@ cd SpendSense
 
 ### LLM Setup (optional)
 
-By default the app runs in **Rules Only** mode — no network, no API key needed. To enable smarter merchant resolution and weekly insights:
+By default the app runs in **Rules Only** mode — no network, no API key needed. To enable smarter merchant resolution:
 
 1. Open **Settings** in the app
 2. Choose a provider: Claude, OpenAI-compatible, or Ollama
