@@ -1,0 +1,42 @@
+# Built outputs
+*.iml
+.gradle
+/build
+/captures
+app/build
+
+# Local config — contains SDK path, never commit
+local.properties
+
+# Android Studio / IntelliJ
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navandEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/.name
+/.idea/compiler.xml
+/.idea/deploymentTargetDropDown.xml
+/.idea/migrations.xml
+/.idea/gradle.xml
+
+# macOS
+.DS_Store
+
+# Native build
+.externalNativeBuild
+.cxx
+
+# Keystore files — never commit signing keys
+*.jks
+*.keystore
+
+# Gradle cache
+.gradle/
+
+# Kotlin build cache
+kotlin/
+
+# Test results
+/test-results/
