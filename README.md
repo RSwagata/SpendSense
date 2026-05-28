@@ -13,7 +13,6 @@ A local-first Android app that automatically tracks your expenses by reading Ind
 - **Smart merchant resolution** — UPI VPA → clean merchant name via bundled lookup + optional LLM
 - **Auto-categorisation** — Food, Transport, Utilities, Rent, Shopping, Medical, Entertainment, Savings, Other
 - **Budget alerts** — set monthly limits per category, get notified at 80% and 100%
-- **Weekly insights** — LLM-generated spending summaries every 7 days
 - **Recategorise** — tap any transaction in History to correct its category; future transactions from the same merchant use your correction
 - **Provider-agnostic LLM** — works fully offline (rules only), or connect Claude, OpenAI-compatible, or Ollama
 
@@ -61,7 +60,7 @@ By default the app runs in **Rules Only** mode — no network, no API key needed
 1. Open **Settings** in the app
 2. Choose a provider: Claude, OpenAI-compatible, or Ollama
 3. Enter your API key and model name
-4. Any OpenAI-compatible endpoint works (OpenRouter, Groq, Together AI, etc.)
+4. Any OpenAI-compatible endpoint works
 
 ## Architecture
 
